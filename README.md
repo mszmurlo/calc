@@ -1,11 +1,20 @@
 # Calc
 
-**TODO: Add description**
+`Calc` is an Elixir library to demonstrate how to create a library,
+how to use it from another module and how to publish it to Hex.
+
+`Calc` provides basic arithmetic operations:
+
+* `Calc.add(a,b)`: addition
+* `Calc.sub(a,b)`: subtraction
+* `Calc.mult(a,b)`: multiplication
+* `Calc.dic(a,b)`: division
+
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `calc` to your list of dependencies in `mix.exs`:
+If [available in Hex](https://hex.pm/docs/publish), the package can be
+installed by adding `calc` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,7 +24,8 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/calc>.
+Documentation can be generated with
+[ExDoc](https://github.com/elixir-lang/ex_doc) and published on
+[HexDocs](https://hexdocs.pm). Once published, the docs can be found
+at <https://hexdocs.pm/calc>.
 
