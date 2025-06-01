@@ -13,6 +13,29 @@ how to use it from another module and how to publish it to Hex.
 
 ## Installation
 
+Depending on where the library is located, add `calc` to your list of
+dependencies in `mix.exs`:
+
+* From the local filesystem:
+```elixir
+def deps do
+  [
+    {:calc, path: "../calc" }
+  ]
+end
+```
+
+* From gitlab:
+```elixir
+def deps do
+  [
+    {:calc, path: "../calc" }
+  ]
+end
+```
+
+    {:calc, "~> 0.1.0"}
+
 If [available in Hex](https://hex.pm/docs/publish), the package can be
 installed by adding `calc` to your list of dependencies in `mix.exs`:
 
