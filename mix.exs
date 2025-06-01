@@ -7,17 +7,7 @@ defmodule Calc.MixProject do
       version: "0.1.0",
       elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
-      deps: deps(),
-      package: package
-    ]
-  end
-
-  defp package do
-    [
-      files: ["lib", "mix.exs", "README", "LICENSE*"],
-      maintainers: ["Merlin Couch"],
-      licenses: ["Apache 2.0"],
-      links: %{"GitHub" => "https://github.com/fteem/eight_ball"}
+      deps: deps()
     ]
   end
   
